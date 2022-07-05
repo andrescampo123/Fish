@@ -1,4 +1,6 @@
-import {USER} from  './User.js'
+import {User} from  './User.js'
+import{Product} from './Product.js'
 
-const andres =new USER('andres','campo')
+const andres =new User('andres','campo')
 console.log(andres)
+console.log(new Product('laptop',1500))
